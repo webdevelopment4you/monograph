@@ -1,5 +1,3 @@
-console.log("Hello Bhomeshwar");
-
 let toggleMenu = document.getElementById("toggleMenu");
 
 function toggle()
