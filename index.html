@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+		integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!--for mobile zooming-->
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css"
+    integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
+
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/nav.css">
+
+  
+  <title>Frontend Mentor | Project tracking intro component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+
+  </style>
+</head>
+<body onresize="toggle()">
+
+	<nav class="navbar navbar-default">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand">
+					<img src="images/logo.svg" alt="Brand Logo" class="img-responsive logo">
+        </a>
+				<button class="navbar-toggle" id="navButton">
+          <img src="images/icon-hamburger.svg" alt="navigation menu" id="open">
+          <img src="images/icon-close.svg" alt="navigation menu" id="close">
+				</button>
+			</div>
+
+			<div class="collapse navbar-collapse" id="toggleMenu">
+				<ul class="nav navbar-nav" id="toggleMenu">
+					<li><a href="#">PRODUCT</a></li>
+					<li><a href="#">FEATURES</a></li>
+          <li><a href="#">PRICING</a></li>
+					<li><a href="#" class="login"><span id="dot">&#x2022;</span><span id="login1">LOGIN</span></a></li>
+				</ul>
+			</div>
+		</div>
+  </nav>
+  
+  <div class="navCard" id="navCard">
+    <ul id="list">
+        <li class="list-item"><a href="#" class="navLink">PRODUCT</a></li>
+        <li class="list-item"><a href="#" class="navLink">FEATURES</a></li>
+        <li class="list-item"><a href="#" class="navLink">PRICING</a></li>
+        <hr>
+        <li class="list-item"><a href="#" class="login" class="navLink">LOGIN</a></li>
+    </ul>
+</div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-7 col-xs-12 col-sm-push-5 firstRight">
+        <div class="background">
+          <img src="images/illustration-devices.svg" alt="illustration" id="illustration" class="img-responsive">
+        </div>
+      </div>
+
+      <div class="col-sm-5 col-xs-12 col-sm-pull-7 firstLeft">
+        <span class="badge">New</span> &nbsp;
+        <span id="monograph" class="fontStyle">Monograph Dashboard</span>
+      
+       <h1 class="heading">Powerful insights into your team</h1>
+
+        <p id="para">Project planning and time tracking for agile teams</p>
+      
+        <div class="tag">
+          <button type="button" id="btn1" class="button">Schedule a demo</button> &nbsp;
+          <span id="preview" class="fontStyle">to see a preview</span>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  
+  <!-- <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer> -->
+
+
+
+
+  <script src="javascript/javascript.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
