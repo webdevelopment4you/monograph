@@ -13,10 +13,6 @@ html,body
     color: hsl(228, 45%, 44%); 
 }
 
-.row
-{
-    /* border:1px solid green; */
-}
 .navbar-default .navbar-collapse, .navbar-default .navbar-form 
 {
     text-align: center;
@@ -25,7 +21,6 @@ html,body
 .firstRight
 {
     padding-right: 0px;
-    /* border:1px solid red; */
     padding-top: 10%;
     top: 0px;
 }
@@ -58,7 +53,6 @@ html,body
 
 .firstLeft
 {
-    /* border:1px solid red; */
     position: relative;
     margin-top: 13%;
     padding-right: 0px;
