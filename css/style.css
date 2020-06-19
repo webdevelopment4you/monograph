@@ -130,6 +130,16 @@ color:hsl(230, 11%, 40%);
 }
 
 
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover 
+{
+    background-color: #ffffff00;
+}
+
+#navButton
+{
+    border:none;
+}
+
 
 /* for PC like display on ipad */
 @media screen and (max-width:767px)
